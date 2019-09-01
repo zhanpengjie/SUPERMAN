@@ -1,0 +1,27 @@
+{
+    "actions":{
+        "1":0.7,
+        "2":0.1,
+        "3":0.1,
+        "4":0.1
+    },
+    "ALS":{
+        "rank":10,
+        "maxIter":10,
+        "regParam":0.1,
+        "numUserBlocks":10,
+        "numItemBlocks":10,
+        "seed":0
+    },
+    "KMEANS":{
+        "k":10,
+        "maxIter":20,
+        "seed":0
+    },
+    "FP":{
+        "minfavorscore":0.5,
+        "minSupport":0.02,
+        "minConfidence":0.02,
+        "numPartitions":1
+    }
+}
